@@ -1,4 +1,5 @@
 @use '../variables'
+@use '../mixins'
 
 #sidebar
   background-color: variables.$bg-color
@@ -23,3 +24,8 @@
     border-radius: variables.$card-border-radius
     margin-top: 20rem
     padding: .8rem 1.2rem
+
+  .btn
+    @include mixins.btn
+    
+    
