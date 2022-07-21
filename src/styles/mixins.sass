@@ -1,5 +1,10 @@
 @use 'variables'
 
+@mixin center
+    display: flex
+    justify-content: center
+    align-items: center
+
 @mixin btn
     padding: 1rem 1.2rem
     color: variables.$text-color
@@ -8,4 +13,4 @@
     border-radius: 3rem
 
 
-// Mixins são estilos que usaremos em outros lugares, como funções, também aceitando parâmetros
+// Mixins são estilos que usaremos em outros lugares, como funções, também aceitando parâmetros. Dessa forma, evitamos repetição de código
