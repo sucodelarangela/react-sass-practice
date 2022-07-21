@@ -1,4 +1,5 @@
 import SocialNetworks from './SocialNetworks';
+import InformationContainer from './InformationContainer';
 
 import Avatar from '../img/angela.jpeg';
 
@@ -10,7 +11,7 @@ const Sidebar = () => {
       <img src={Avatar} alt="Angela Caldas" />
       <p className="title">Desenvolvedora Front End</p>
       <SocialNetworks />
-      <p>Informações de contato</p>
+      <InformationContainer />
       <a href="" className="btn">Download currículo</a>
     </aside>
   );
